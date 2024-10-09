@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/** Comienzo del Nav **/
+
+nav {
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none; /* Elimina los Elementos de la Lista */
+    padding: 0;
+    margin: 0;
+    
+}
+
+nav ul li {
+    
+    display: inline; /* Muestra los Elementos Horizontalmente */
+    padding: 20px;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: red;
+}
+
+/** Fin del Nav **/
+
+/** Comienzo del Hero **/
+
+.japan .manga .anime .videojuegos {
+    display: flex;
+    justify-content: center; /* Centra Horizontalmente */
+    align-items: center; /* Centra Verticalmente */
+    padding: 0;
+    margin: 0;
+}
+
+.japan img { 
+    width: 100%;
+    height: 730px;
+}
+
+.manga img {
+    width: 100%;
+    height: 730px;
+}
+
+.anime img {
+    width: 100%;
+    height: 730px;
+}
+
+.videojuegos img {
+    width: 100%;
+    height: 730px;
+}
+
+/** Fin del Hero **/
+
+/** Galeria **/
+
+.galeria {
+    text-align: center;
+    margin: -5px;
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+
+.galeria img {
+    width: 300px;
+    height: 200px;
+}
+
+.galeria-item {
+    display: inline-block;
+}
+
+/** Galeria **/
